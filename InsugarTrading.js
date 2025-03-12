@@ -1,1 +1,1 @@
-Game.LoadMod('https://staticvariablejames.github.io/InsugarTrading/dist/main.js');
+Game.LoadMod('https://moussetc.github.io/InsugarTrading/dist/main.js');

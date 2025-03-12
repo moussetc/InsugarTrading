@@ -4,6 +4,8 @@ Insugar Trading
 This is an add-on for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/)
 that helps analyze the Stock Market minigame.
 
+This is a fork of the original [InsugarTrading](https://github.com/staticvariablejames/InsugarTrading), that also use the updated data from [Beepmill's fork](https://github.com/beepmill/InsugarTrading), to hopefully make the plugin available in GitHub Pages like the original, with data up-to-date for the latest buildings. I give no garantee that the data is, in fact, accurate.
+
 This add-on contains two parts:
 the [dataset](#dataset), which is a histogram of the stock values in the stock market,
 collected in a simulation of 1000 years of the market ups and downs;
@@ -98,18 +100,18 @@ Using the mod
 =============
 
 The best solution is adding
-<https://staticvariablejames.github.io/InsugarTrading/InsugarTrading.js>
+<https://moussetc.github.io/InsugarTrading/InsugarTrading.js>
 to [Cookie Clicker Mod Manager](https://github.com/klattmose/CookieClickerModManager).
 
 Alternatively,
 run
 ```javascript
-    Game.LoadMod('https://staticvariablejames.github.io/InsugarTrading/InsugarTrading.js');
+    Game.LoadMod('https://moussetc.github.io/InsugarTrading/InsugarTrading.js');
 ```
 on your browser Javascript console,
 or create a bookmarklet with the code
 ```javascript
-    javascript:(function(){Game.LoadMod('https://staticvariablejames.github.io/InsugarTrading/InsugarTrading.js');}());
+    javascript:(function(){Game.LoadMod('https://moussetc.github.io/InsugarTrading/InsugarTrading.js');}());
 ```
 
 
